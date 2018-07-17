@@ -35,12 +35,10 @@
   padding: 10px;
   background: #fff;
   label {
-    color: gray;
-    padding: 10px;
+    color: $secondary-text;
     font-size: 12px;
   }
   input {
-    margin: 10px;
     padding-left: 10px;
     border: transparent;
     border-bottom: 2px solid $yellow-gold;
