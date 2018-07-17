@@ -1,0 +1,14 @@
+nav {
+  background-color: $primary-dark;
+  border-bottom: 2px solid $yellow-gold;
+  box-shadow: -2px 1px 13px 1px black;
+  a {
+    color: #fff;
+  }
+  li {
+    padding: 1em;
+    &:hover {
+      background-color: $yellow-gold;
+    }
+  }
+}

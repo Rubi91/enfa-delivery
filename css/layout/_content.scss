@@ -1,0 +1,54 @@
+.welcome {
+  height: 85vh;
+  overflow: hidden;
+  img {
+    filter: blur(1px);
+    width: 100vw;
+  }
+  input {
+    margin: 0 10px;
+  }
+}
+.welcome__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+.welcome__title {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 43%;
+  .title {
+    padding-left: 50px;
+  }
+  strong {
+    color: $yellow-gold;
+  }
+}
+.welcome__form {
+  margin-top: 2em;
+  padding: 10px;
+  background: #fff;
+  label {
+    color: gray;
+    padding: 10px;
+    font-size: 12px;
+  }
+  input {
+    margin: 10px;
+    padding-left: 10px;
+    border: transparent;
+    border-bottom: 2px solid $yellow-gold;
+  }
+  select {
+    margin: 10px;
+  }
+  ion-icon {
+    font-size: 25px;
+  }
+}
